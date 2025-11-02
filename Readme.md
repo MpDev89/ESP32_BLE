@@ -40,14 +40,14 @@ cd project-name
 ## 🗒️ Results
 Connect ESP32 NodeMCU to PC and open Serial Monitor.
 Application is designed to accept data if received in a specific format: 'SET <parameter> <value>#' where parameter can be TEMP, HUMID, SOLAR.
-On smartphone side download and install [Android application :](https://github.com/MpDev89/ESP32_IoT_AndroidApp/tree/3c57ac2ce29f552f0374a117baf161610bf1246f/build)
+On smartphone side download and install [Android application.](https://github.com/MpDev89/ESP32_IoT_AndroidApp/tree/3c57ac2ce29f552f0374a117baf161610bf1246f/build)
 Follow instructions reported in the main application page and connect to device (IoT Sensor Node) as reported here:
 ![Alt text](images/Connect.png)
 
 From serial monitor change data using the commands with the format defined and verify that data is correctly transmitted to Android application.
 The following image show data example:
 
-![Alt text](images/Measure.jpg)
+![Alt text](images/Measure.png)
 
 ## 🗒️ Licensing
 This project includes code licensed under the Apache License 2.0.
